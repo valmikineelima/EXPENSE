@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0; 
+    padding: 0; 
+    
+    }
+    
+    .name{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding:0 15rem;
+        background-color: #282c34;
+        color:white;
+        align-items: center;
+        
+        
+      }
+    .date {
+        display: flex;
+        flex-direction: row;
+        background-color: #282c34;
+        color:white;
+        border-radius: 3px;
+        padding:5px;
+        font-size: 8px;
+
+    }
+    .exp {
+        display: flex;
+        flex-direction: row;
+        background-color: #8a2be2;
+        color: white;
+        padding: 5px;
+        border-radius: 3px;
+        font-size: 8px;
+    }
